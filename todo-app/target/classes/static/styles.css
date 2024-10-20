@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+
+.top-right-alert {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1050;
+            display: none;
+        }
+
+.alert-success {
+            background-color: #28a745; /* Dark green */
+            color: white; /* White text */
+        }
+
+        .alert-danger {
+            background-color: #dc3545; /* Dark red */
+            color: white; /* White text */
+        }
