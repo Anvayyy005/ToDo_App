@@ -19,7 +19,7 @@ COPY src ./src
 RUN ./mvnw clean package -DskipTests
 
 # Copy the generated JAR file to the working directory
-COPY target/todo-app-0.0.1-SNAPSHOT.jar app.jar
+COPY /target/todo-app-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the application port (default is 8080 for Spring Boot)
 EXPOSE 8080
